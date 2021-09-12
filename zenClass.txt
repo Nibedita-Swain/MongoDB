@@ -1,0 +1,8153 @@
+> db.users.insertMany([{"user_id":1,"name":"Rohan Raj","email":"rohon@gmail.com"},
+...  {"user_id":2,"name":"Nishi Mohan","email":"nisi@gmail.com"},
+...  {"user_id":3,"name":"Ether Swain","email":"ether@gmail.com"},
+...  {"user_id":4,"name":"Suraj Singh","email":"suraj@gmail.com"},
+...  {"user_id":5,"name":"Pinky","email":"pinky@gmail.com"},
+...  {"user_id":6,"name":"Akash Yadav","email":"akash@gmail.com"},
+...  {"user_id":7,"name":"Sagar Awasthi","email":"sagar@gmail.com"},
+...  {"user_id":8,"name":"Lipsa Samal","email":"lipsa@gmail.com"},
+...  {"user_id":9,"name":"Anurag Basu","email":"anurag@gmail.com"},
+...  {"user_id":10,"name":"Prateek Panchal","email":"prateek@gmail.com"},
+...  {"user_id":11,"name":"Aman Singh","email":"aman@gmail.com"},
+...  {"user_id":12,"name":"Neha Singh","email":"neha@gmail.com"},
+...  {"user_id":13,"name":"Priyanka Mishra","email":"priyanka@gmail.com"},
+...  {"user_id":14,"name":"Riya Sharma","email":"riya@gmail.com"},
+...  {"user_id":15,"name":"Princeton","email":"prince@gmail.com"},
+...  {"user_id":16,"name":"Supriya","email":"sup@gmail.com"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("613afc6e0f3f37d673c7e87c"),
+                ObjectId("613afc6e0f3f37d673c7e87d"),
+                ObjectId("613afc6e0f3f37d673c7e87e"),
+                ObjectId("613afc6e0f3f37d673c7e87f"),
+                ObjectId("613afc6e0f3f37d673c7e880"),
+                ObjectId("613afc6e0f3f37d673c7e881"),
+                ObjectId("613afc6e0f3f37d673c7e882"),
+                ObjectId("613afc6e0f3f37d673c7e883"),
+                ObjectId("613afc6e0f3f37d673c7e884"),
+                ObjectId("613afc6e0f3f37d673c7e885"),
+                ObjectId("613afc6e0f3f37d673c7e886"),
+                ObjectId("613afc6e0f3f37d673c7e887"),
+                ObjectId("613afc6e0f3f37d673c7e888"),
+                ObjectId("613afc6e0f3f37d673c7e889"),
+                ObjectId("613afc6e0f3f37d673c7e88a"),
+                ObjectId("613afc6e0f3f37d673c7e88b")
+        ]
+}
+> db.users.find().pretty()
+{      
+          "_id" : ObjectId("613afc6e0f3f37d673c7e87c"),
+        "user_id" : 1,
+        "name" : "Rohan Raj",
+        "email" : "rohon@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e87d"),
+        "user_id" : 2,
+        "name" : "Nishi Mohan",
+        "email" : "nisi@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e87e"),
+        "user_id" : 3,
+        "name" : "Ether Swain",
+        "email" : "ether@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e87f"),
+        "user_id" : 4,
+        "name" : "Suraj Singh",
+        "email" : "suraj@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e880"),
+        "user_id" : 5,
+        "name" : "Pinky",
+        "email" : "pinky@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e881"),
+        "user_id" : 6,
+        "name" : "Akash Yadav",
+        "email" : "akash@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e882"),
+        "user_id" : 7,
+        "name" : "Sagar Awasthi",
+        "email" : "sagar@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e883"),
+        "user_id" : 8,
+        "name" : "Lipsa Samal",
+        "email" : "lipsa@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e884"),
+        "user_id" : 9,
+        "name" : "Anurag Basu",
+        "email" : "anurag@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e885"),
+        "user_id" : 10,
+        "name" : "Prateek Panchal",
+        "email" : "prateek@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e886"),
+        "user_id" : 11,
+        "name" : "Aman Singh",
+        "email" : "aman@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e887"),
+        "user_id" : 12,
+        "name" : "Neha Singh",
+        "email" : "neha@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e888"),
+        "user_id" : 13,
+        "name" : "Priyanka Mishra",
+        "email" : "priyanka@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e889"),
+        "user_id" : 14,
+        "name" : "Riya Sharma",
+        "email" : "riya@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e88a"),
+        "user_id" : 15,
+        "name" : "Princeton",
+        "email" : "prince@gmail.com"
+}
+{
+        "_id" : ObjectId("613afc6e0f3f37d673c7e88b"),
+        "user_id" : 16,
+        "name" : "Supriya",
+        "email" : "sup@gmail.com"
+}
+> db.codekata.insertMany([{"cid":1,"name":"Rohan Raj","problems_solved":10},
+... {"cid":2,"name":"Nishi Mohan","problems_solved":16},
+... {"cid":3,"name":"Ether Swain","problems_solved":20},
+... {"cid":4,"name":"Suraj Singh","problems_solved":12},
+... {"cid":5,"name":"Pinky","Problems_solved":10},
+... {"cid":6,"name":"Akash Yadav","problems_solved":12},
+... {"cid":7,"name":"Sagar Awasthi","problems_solved":18},
+... {"cid":8,"name":"Lipsa Samal","problems_solved":20},
+... {"cid":9,"name":"Anurag Basu","problems_solved":25},
+... {"cid":10,"name":"Aman Singh","problems_solved":24},
+... {"cid":11,"name":"Riya Sharma","problems_solved":15},
+... {"cid":12,"name":"Neha Singh","problems_solved":26}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("613b02a50f3f37d673c7e88c"),
+                ObjectId("613b02a50f3f37d673c7e88d"),
+                ObjectId("613b02a50f3f37d673c7e88e"),
+                ObjectId("613b02a50f3f37d673c7e88f"),
+                ObjectId("613b02a50f3f37d673c7e890"),
+                ObjectId("613b02a50f3f37d673c7e891"),
+                ObjectId("613b02a50f3f37d673c7e892"),
+                ObjectId("613b02a50f3f37d673c7e893"),
+                ObjectId("613b02a50f3f37d673c7e894"),
+                ObjectId("613b02a50f3f37d673c7e895"),
+                ObjectId("613b02a50f3f37d673c7e896"),
+                ObjectId("613b02a50f3f37d673c7e897")
+        ]
+}
+>> db.codekata.find().pretty()
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e88c"),
+        "cid" : 1,
+        "name" : "Rohan Raj",
+        "problems_solved" : 10
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e88d"),
+        "cid" : 2,
+        "name" : "Nishi Mohan",
+        "problems_solved" : 16
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e88e"),
+        "cid" : 3,
+        "name" : "Ether Swain",
+        "problems_solved" : 20
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e88f"),
+        "cid" : 4,
+        "name" : "Suraj Singh",
+        "problems_solved" : 12
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e890"),
+        "cid" : 5,
+        "name" : "Pinky",
+        "Problems_solved" : 10
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e891"),
+        "cid" : 6,
+        "name" : "Akash Yadav",
+        "problems_solved" : 12
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e892"),
+        "cid" : 7,
+        "name" : "Sagar Awasthi",
+        "problems_solved" : 18
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e893"),
+        "cid" : 8,
+        "name" : "Lipsa Samal",
+        "problems_solved" : 20
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e894"),
+        "cid" : 9,
+        "name" : "Anurag Basu",
+        "problems_solved" : 25
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e895"),
+        "cid" : 10,
+        "name" : "Aman Singh",
+        "problems_solved" : 24
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e896"),
+        "cid" : 11,
+        "name" : "Riya Sharma",
+        "problems_solved" : 15
+}
+{
+        "_id" : ObjectId("613b02a50f3f37d673c7e897"),
+        "cid" : 12,
+        "name" : "Neha Singh",
+        "problems_solved" : 26
+}
+> db.attendance.insertOne([
+{"aid":1,
+"name":"Rohan Raj",
+"date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23,"2020-10-24","2020-10-25","2020-10-26"],
+"status":["present","absent","present","present","present","present","present","present","present","present"]},
+>db.attendance.insertOne({"aid":2, "name":"Nishi Mohan", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","absent","present","present","present","present","present","present","present","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df24e14338f088de34437")
+}
+> db.attendance.insertOne({"aid":3, "name":"Ether Swain", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","absent","present","present","absent","present","present","present","present","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df2a914338f088de34438")
+}
+> db.attendance.insertOne({"aid":4, "name":"Suraj Singh", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","present","present","present","absent","present","present","present","present","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df2ff14338f088de34439")
+}
+> db.attendance.insertOne({"aid":5, "name":"Neha Singh", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","present","present","present","present","present","present","present","absent","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df35e14338f088de3443a")
+}
+> db.attendance.insertOne({"aid":6, "name":"Pinky", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","present","present","present","present","present","present","present","absent","absent"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df38814338f088de3443b")
+}
+> db.attendance.insertOne({"aid":7, "name":"Akask Yadav", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","present","present","present","present","present","present","present","present","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df40314338f088de3443d")
+}db.attendance.insertOne({"aid":8, "name":"Sagar Awasthi", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","present","present","present","present","present","absent","present","present","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df66914338f088de3443e")
+}
+> db.attendance.insertOne({"aid":9, "name":"Lipsa Samal", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","present","present","present","present","present","present","present","present","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df69314338f088de3443f")
+}
+> db.attendance.insertOne({"aid":10, "name":"Anurag Basu", "date":["2020-10-15","2020-10-16","2020-10-17","2020-10-18","2020-10-19","2020-10-22","2020-10-23","2020-10-24","2020-10-25","2020-10-26"], "status":["present","present","absent","present","present","present","present","present","present","present"]})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613df6bf14338f088de34440")
+}
+> db.attendance.find().pretty()
+{
+        "_id" : ObjectId("613b806366e6e2506b2662d4"),
+        "aid" : 1,
+        "name" : "Rohan Raj",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-20",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df24e14338f088de34437"),
+        "aid" : 2,
+        "name" : "Nishi Mohan",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df2a914338f088de34438"),
+        "aid" : 3,
+        "name" : "Ether Swain",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "absent",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df2ff14338f088de34439"),
+        "aid" : 4,
+        "name" : "Suraj Singh",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df35e14338f088de3443a"),
+        "aid" : 5,
+        "name" : "Neha Singh",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df38814338f088de3443b"),
+        "aid" : 6,
+        "name" : "Pinky",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "absent"
+        ]
+}
+{
+        "_id" : ObjectId("613df40314338f088de3443d"),
+        "aid" : 7,
+        "name" : "Akask Yadav",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df66914338f088de3443e"),
+        "aid" : 8,
+        "name" : "Sagar Awasthi",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df69314338f088de3443f"),
+        "aid" : 9,
+        "name" : "Lipsa Samal",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df6bf14338f088de34440"),
+        "aid" : 10,
+        "name" : "Anurag Basu",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+> db.attendance.find().pretty()
+{
+        "_id" : ObjectId("613b806366e6e2506b2662d4"),
+        "aid" : 1,
+        "name" : "Rohan Raj",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-20",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df24e14338f088de34437"),
+        "aid" : 2,
+        "name" : "Nishi Mohan",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df2a914338f088de34438"),
+        "aid" : 3,
+        "name" : "Ether Swain",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "absent",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df2ff14338f088de34439"),
+        "aid" : 4,
+        "name" : "Suraj Singh",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df35e14338f088de3443a"),
+        "aid" : 5,
+        "name" : "Neha Singh",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df38814338f088de3443b"),
+        "aid" : 6,
+        "name" : "Pinky",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "absent"
+        ]
+}
+{
+        "_id" : ObjectId("613df40314338f088de3443d"),
+        "aid" : 7,
+        "name" : "Akask Yadav",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df66914338f088de3443e"),
+        "aid" : 8,
+        "name" : "Sagar Awasthi",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df69314338f088de3443f"),
+        "aid" : 9,
+        "name" : "Lipsa Samal",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df6bf14338f088de34440"),
+        "aid" : 10,
+        "name" : "Anurag Basu",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+> db.attendance.find().pretty()
+{
+        "_id" : ObjectId("613b806366e6e2506b2662d4"),
+        "aid" : 1,
+        "name" : "Rohan Raj",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-20",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df24e14338f088de34437"),
+        "aid" : 2,
+        "name" : "Nishi Mohan",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df2a914338f088de34438"),
+        "aid" : 3,
+        "name" : "Ether Swain",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "absent",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df2ff14338f088de34439"),
+        "aid" : 4,
+        "name" : "Suraj Singh",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df35e14338f088de3443a"),
+        "aid" : 5,
+        "name" : "Neha Singh",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df38814338f088de3443b"),
+        "aid" : 6,
+        "name" : "Pinky",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "absent"
+        ]
+}
+{
+        "_id" : ObjectId("613df40314338f088de3443d"),
+        "aid" : 7,
+        "name" : "Akask Yadav",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df66914338f088de3443e"),
+        "aid" : 8,
+        "name" : "Sagar Awasthi",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df69314338f088de3443f"),
+        "aid" : 9,
+        "name" : "Lipsa Samal",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+{
+        "_id" : ObjectId("613df6bf14338f088de34440"),
+        "aid" : 10,
+        "name" : "Anurag Basu",
+        "date" : [
+                "2020-10-15",
+                "2020-10-16",
+                "2020-10-17",
+                "2020-10-18",
+                "2020-10-19",
+                "2020-10-22",
+                "2020-10-23",
+                "2020-10-24",
+                "2020-10-25",
+                "2020-10-26"
+        ],
+        "status" : [
+                "present",
+                "present",
+                "absent",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present",
+                "present"
+        ]
+}
+> db.topics.insertMany([{ "tid":1, "topic":"SQL", "date":"2020-10-15", "mentor":"Asish Dash"},
+... {"tid":2,"topic":"JavaScript","date":"2020-10-17","mentor":"Rakesh Yadav"},
+... {"tid":3,"topic":"MongoDB","date":"2020-10-19","mentor":"Divya Agarwal"},
+... {"tid":4,"topic":"DevOps","date":"2020-10-22","mentor":"Ayush Shukla"},
+... {"tid":5,"topic":"Angular","date":"2020-10-24","mentor":"Vikram Rathore"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("613e06c514338f088de34441"),
+                ObjectId("613e06c514338f088de34442"),
+                ObjectId("613e06c514338f088de34443"),
+                ObjectId("613e06c514338f088de34444"),
+                ObjectId("613e06c514338f088de34445")
+        ]
+}
+>> db.topics.find().pretty()
+{
+        "_id" : ObjectId("613e06c514338f088de34441"),
+        "tid" : 1,
+        "topic" : "SQL",
+        "date" : "2020-10-15",
+        "mentor" : "Asish Dash"
+}
+{
+        "_id" : ObjectId("613e06c514338f088de34442"),
+        "tid" : 2,
+        "topic" : "JavaScript",
+        "date" : "2020-10-17",
+        "mentor" : "Rakesh Yadav"
+}
+{
+        "_id" : ObjectId("613e06c514338f088de34443"),
+        "tid" : 3,
+        "topic" : "MongoDB",
+        "date" : "2020-10-19",
+        "mentor" : "Divya Agarwal"
+}
+{
+        "_id" : ObjectId("613e06c514338f088de34444"),
+        "tid" : 4,
+        "topic" : "DevOps",
+        "date" : "2020-10-22",
+        "mentor" : "Ayush Shukla"
+}
+{
+        "_id" : ObjectId("613e06c514338f088de34445"),
+        "tid" : 5,
+        "topic" : "Angular",
+        "date" : "2020-10-24",
+        "mentor" : "Vikram Rathore"
+}
+>> db.tasks.insertMany([{"task_id":1,"task":"MySQL queries","users":["Rohan Raj","Ether Swain","Nishi Mohan","Suraj Singh","Neha Singh","Pinky","Anurag Basu","Sagar Awasthi","Lipsa Samal","Akash Yadav"],"given":"2020-10-15","submitted":"2020-10-17"}, {"task_id":2,"task":"MongoDB Exercises","users":["Rohan Raj","Ether Swain","Nishi Mohan","Suraj Singh","Neha Singh","Pinky","Anurag Basu","Sagar Awasthi","Lipsa Samal","Akash Yadav"],"given":"2020-10-18","submitted":"2020-10-20"}, {"task_id":3,"task":"DevOps Exercises","users":["Rohan Raj","Ether Swain","Nishi Mohan","Suraj Singh","Neha Singh","Pinky","Sagar Awasthi","Lipsa Samal","Akash Yadav"],"given":"2020-10-21","submitted":"2020-10-23"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("613e0e7f14338f088de34446"),
+                ObjectId("613e0e7f14338f088de34447"),
+                ObjectId("613e0e7f14338f088de34448")
+        ]
+}
+> db.tasks.insertMany([ {"task_id":4,"task":"Angular Exercises","users":["Rohan Raj","Ether Swain","Nishi Mohan","Suraj Singh","Neha Singh","Pinky","Anurag Basu","Sagar Awasthi","Lipsa Samal","Akash Yadav"],"given":"2020-10-24","submitted":"2020-10-25"}, {"task_id":5,"task":"JavaScript Exercises","users":["Rohan Raj","Ether Swain","Nishi Mohan","Suraj Singh","Neha Singh","Pinky","Sagar Awasthi","Lipsa Samal","Anurag Basu","Akash Yadav"],"given":"2020-10-28","submitted":"2020-10-30"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("613e0f5e14338f088de34449"),
+                ObjectId("613e0f5e14338f088de3444a")
+        ]
+}
+>> db.tasks.find().pretty()
+{
+        "_id" : ObjectId("613e0e7f14338f088de34446"),
+        "task_id" : 1,
+        "task" : "MySQL queries",
+        "users" : [
+                "Rohan Raj",
+                "Ether Swain",
+                "Nishi Mohan",
+                "Suraj Singh",
+                "Neha Singh",
+                "Pinky",
+                "Anurag Basu",
+                "Sagar Awasthi",
+                "Lipsa Samal",
+                "Akash Yadav"
+        ],
+        "given" : "2020-10-15",
+        "submitted" : "2020-10-17"
+}
+{
+        "_id" : ObjectId("613e0e7f14338f088de34447"),
+        "task_id" : 2,
+        "task" : "MongoDB Exercises",
+        "users" : [
+                "Rohan Raj",
+                "Ether Swain",
+                "Nishi Mohan",
+                "Suraj Singh",
+                "Neha Singh",
+                "Pinky",
+                "Anurag Basu",
+                "Sagar Awasthi",
+                "Lipsa Samal",
+                "Akash Yadav"
+        ],
+        "given" : "2020-10-18",
+        "submitted" : "2020-10-20"
+}
+{
+        "_id" : ObjectId("613e0e7f14338f088de34448"),
+        "task_id" : 3,
+        "task" : "DevOps Exercises",
+        "users" : [
+                "Rohan Raj",
+                "Ether Swain",
+                "Nishi Mohan",
+                "Suraj Singh",
+                "Neha Singh",
+                "Pinky",
+                "Sagar Awasthi",
+                "Lipsa Samal",
+                "Akash Yadav"
+        ],
+        "given" : "2020-10-21",
+        "submitted" : "2020-10-23"
+}
+{
+        "_id" : ObjectId("613e0f5e14338f088de34449"),
+        "task_id" : 4,
+        "task" : "Angular Exercises",
+        "users" : [
+                "Rohan Raj",
+                "Ether Swain",
+                "Nishi Mohan",
+                "Suraj Singh",
+                "Neha Singh",
+                "Pinky",
+                "Anurag Basu",
+                "Sagar Awasthi",
+                "Lipsa Samal",
+                "Akash Yadav"
+        ],
+        "given" : "2020-10-24",
+        "submitted" : "2020-10-25"
+}
+{
+        "_id" : ObjectId("613e0f5e14338f088de3444a"),
+        "task_id" : 5,
+        "task" : "JavaScript Exercises",
+        "users" : [
+                "Rohan Raj",
+                "Ether Swain",
+                "Nishi Mohan",
+                "Suraj Singh",
+                "Neha Singh",
+                "Pinky",
+                "Sagar Awasthi",
+                "Lipsa Samal",
+                "Anurag Basu",
+                "Akash Yadav"
+        ],
+        "given" : "2020-10-28",
+        "submitted" : "2020-10-30"
+}
+>> db.companydrives.insertOne({"company_id":101,"name":"IBM","users":["Rohan Raj","Nishi Mohan","Neha Singh","Ritu Rathi","Sagar Awasthi","Ether Swain","Aman Singh","Anurag Basu"],"date":"2020-10-25"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613e1fa11b632d274709298d")
+}
+> db.companydrives.insertOne({"company_id":102,"name":"Infosys","users":["Rohan Raj","Nishi Mohan","Ayush","Akash Singh","Ritu Rathi","Sagar Awasthi","Ether Swain","Aman Singh","Anurag Basu"],"date":"2020-10-20"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613e20ef1b632d274709298e")
+}
+>> db.companydrives.insertMany([{"company_id":103,"name":"Virtusa","users":["Rajesh","Nishi Mohan","Ayush","Akanksha Singh","Rashmi","Sagar Awasthi","Ether Swain","Aman Singh"],"date":"2020-10-28"},
+... {"company_id":104,"name":"TekSystem","users":["Rahul","Nishi Mohan","Ayush","Akash Singh","Ritu Rathi","Sagar Awasthi","Lipsa Samal","Ether Swain","Suraj Singh","Anurag Basu"],"date":"2020-11-2"},
+... {"company_id":105,"name":"Finastra","users":["Rajdeep","Nishi Mohan","Ayush","Pooja","Neha Singh","Priyanka Mishra","Ritu Rathi","Sagar Awasthi","Ether Swain","Aman Singh","Akash Yadav"],"date":"2020-11-12"},
+... {"company_id":106,"name":"Wipro","users":["Rohan Raj","Sagar Awasthi","Nishi Mohan","Ayush","Akash Singh","Murali Murray","Nishchay","Suyash","Rohit","Sagar Awasthi","Ether Swain","Aman Singh","Anurag Basu"],"date":"2020-11-20"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("613e23381b632d274709298f"),
+                ObjectId("613e23381b632d2747092990"),
+                ObjectId("613e23381b632d2747092991"),
+                ObjectId("613e23381b632d2747092992")
+        ]
+}
+>> db.companydrives.find().pretty()
+{
+        "_id" : ObjectId("613e1fa11b632d274709298d"),
+        "company_id" : 101,
+        "name" : "IBM",
+        "users" : [
+                "Rohan Raj",
+                "Nishi Mohan",
+                "Neha Singh",
+                "Ritu Rathi",
+                "Sagar Awasthi",
+                "Ether Swain",
+                "Aman Singh",
+                "Anurag Basu"
+        ],
+        "date" : "2020-10-25"
+}
+{
+        "_id" : ObjectId("613e20ef1b632d274709298e"),
+        "company_id" : 102,
+        "name" : "Infosys",
+        "users" : [
+                "Rohan Raj",
+                "Nishi Mohan",
+                "Ayush",
+                "Akash Singh",
+                "Ritu Rathi",
+                "Sagar Awasthi",
+                "Ether Swain",
+                "Aman Singh",
+                "Anurag Basu"
+        ],
+        "date" : "2020-10-20"
+}
+{
+        "_id" : ObjectId("613e23381b632d274709298f"),
+        "company_id" : 103,
+        "name" : "Virtusa",
+        "users" : [
+                "Rajesh",
+                "Nishi Mohan",
+                "Ayush",
+                "Akanksha Singh",
+                "Rashmi",
+                "Sagar Awasthi",
+                "Ether Swain",
+                "Aman Singh"
+        ],
+        "date" : "2020-10-28"
+}
+{
+        "_id" : ObjectId("613e23381b632d2747092990"),
+        "company_id" : 104,
+        "name" : "TekSystem",
+        "users" : [
+                "Rahul",
+                "Nishi Mohan",
+                "Ayush",
+                "Akash Singh",
+                "Ritu Rathi",
+                "Sagar Awasthi",
+                "Lipsa Samal",
+                "Ether Swain",
+                "Suraj Singh",
+                "Anurag Basu"
+        ],
+        "date" : "2020-11-2"
+}
+{
+        "_id" : ObjectId("613e23381b632d2747092991"),
+        "company_id" : 105,
+        "name" : "Finastra",
+        "users" : [
+                "Rajdeep",
+                "Nishi Mohan",
+                "Ayush",
+                "Pooja",
+                "Neha Singh",
+                "Priyanka Mishra",
+                "Ritu Rathi",
+                "Sagar Awasthi",
+                "Ether Swain",
+                "Aman Singh",
+                "Akash Yadav"
+        ],
+        "date" : "2020-11-12"
+}
+{
+        "_id" : ObjectId("613e23381b632d2747092992"),
+        "company_id" : 106,
+        "name" : "Wipro",
+        "users" : [
+                "Rohan Raj",
+                "Sagar Awasthi",
+                "Nishi Mohan",
+                "Ayush",
+                "Akash Singh",
+                "Murali Murray",
+                "Nishchay",
+                "Suyash",
+                "Rohit",
+                "Sagar Awasthi",
+                "Ether Swain",
+                "Aman Singh",
+                "Anurag Basu"
+        ],
+        "date" : "2020-11-20"
+}
+> db.mentor.insertOne({"mid":1,"mentor_name":"Rajesh","users":["Rohan Raj","Akanksha Yadav","Rutul Mishra","Rohit","Priyanka","Asuthosh Das","Wallia","Vardhan","Anurag Basu","Pranjal","Kinjal","Rituraj","Neerja","Pankaj","Pradhiti"],"topic":"SQL"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613e25021b632d2747092993")
+}
+> db.mentor.insertOne({"mid":2,"mentor_name":"Vikram","users":["Rohan","Rahul Raj","Prathamesh","Ashuthosh","Riya Sharma","Akanksha Yadav","Rutul Mishra","Rohit","Priyanka","Asuthosh Das","Wallia","Vardhan","Anurag Basu","Pranjal","Kinjal","Rituraj","Neerja","Pankaj","Pradhiti"],"topic":"mongoDB"})
+{
+        "acknowledged" : true,
+        "insertedId" : ObjectId("613e26a31b632d2747092994")
+}
+> db.mentor.insertMany([{"mid":3,"mentor_name":"Divya","users":["Sristi","Rahul","Prathamesh","Aspeshk","Riya Sharma","Ashlok Yadav","Rupesh Mishra",,"Varun","Vardhan","Anuradha","Pritam","Anjali","Rituraj","Neerja"],"topic":"DevOps"},
+... {"mid":4,"mentor_name":"Akash Yadav","users":["Rohit","Raj","Riya Sharma","Akanksha Yadav","Rutul Mishra","Yash","Priyanka Das","John","Vardhan","Aurelia","Dibyanshu","Neetu","Pankaj","Jenkin"],"topic":"Angular"},
+... {"mid":5,"mentor_name":"Venkat","users":["Nishi Mohan","Supriya","Neha","Aman","Suraj Singh","Ether Swain","Riya Sharma","Pratyush","Pringle","Anchal","Arpita","John","Yash","Suraj","Archeeta","Tushar","Srestha"],"topic":"JavaScript"},
+... {"mid":6,"mentor_name":"Swarup Mishra","users":["Aishwarya","Ayush","Varun","Prateek","Debjoti","Asish","Mansi","Riya","Tina","Hardik"],"topic":"Web Development"}])
+{
+        "acknowledged" : true,
+        "insertedIds" : [
+                ObjectId("613e2bb91b632d2747092995"),
+                ObjectId("613e2bb91b632d2747092996"),
+                ObjectId("613e2bb91b632d2747092997"),
+                ObjectId("613e2bb91b632d2747092998")
+        ]
+}
+>> db.mentor.find().pretty()
+{
+        "_id" : ObjectId("613e25021b632d2747092993"),
+        "mid" : 1,
+        "mentor_name" : "Rajesh",
+        "users" : [
+                "Rohan Raj",
+                "Akanksha Yadav",
+                "Rutul Mishra",
+                "Rohit",
+                "Priyanka",
+                "Asuthosh Das",
+                "Wallia",
+                "Vardhan",
+                "Anurag Basu",
+                "Pranjal",
+                "Kinjal",
+                "Rituraj",
+                "Neerja",
+                "Pankaj",
+                "Pradhiti"
+        ],
+        "topic" : "SQL"
+}
+{
+        "_id" : ObjectId("613e26a31b632d2747092994"),
+        "mid" : 2,
+        "mentor_name" : "Vikram",
+        "users" : [
+                "Rohan",
+                "Rahul Raj",
+                "Prathamesh",
+                "Ashuthosh",
+                "Riya Sharma",
+                "Akanksha Yadav",
+                "Rutul Mishra",
+                "Rohit",
+                "Priyanka",
+                "Asuthosh Das",
+                "Wallia",
+                "Vardhan",
+                "Anurag Basu",
+                "Pranjal",
+                "Kinjal",
+                "Rituraj",
+                "Neerja",
+                "Pankaj",
+                "Pradhiti"
+        ],
+        "topic" : "mongoDB"
+}
+{
+        "_id" : ObjectId("613e2bb91b632d2747092995"),
+        "mid" : 3,
+        "mentor_name" : "Divya",
+        "users" : [
+                "Sristi",
+                "Rahul",
+                "Prathamesh",
+                "Aspeshk",
+                "Riya Sharma",
+                "Ashlok Yadav",
+                "Rupesh Mishra",
+                undefined,
+                "Varun",
+                "Vardhan",
+                "Anuradha",
+                "Pritam",
+                "Anjali",
+                "Rituraj",
+                "Neerja"
+        ],
+        "topic" : "DevOps"
+}
+{
+        "_id" : ObjectId("613e2bb91b632d2747092996"),
+        "mid" : 4,
+        "mentor_name" : "Akash Yadav",
+        "users" : [
+                "Rohit",
+                "Raj",
+                "Riya Sharma",
+                "Akanksha Yadav",
+                "Rutul Mishra",
+                "Yash",
+                "Priyanka Das",
+                "John",
+                "Vardhan",
+                "Aurelia",
+                "Dibyanshu",
+                "Neetu",
+                "Pankaj",
+                "Jenkin"
+        ],
+        "topic" : "Angular"
+}
+{
+        "_id" : ObjectId("613e2bb91b632d2747092997"),
+        "mid" : 5,
+        "mentor_name" : "Venkat",
+        "users" : [
+                "Nishi Mohan",
+                "Supriya",
+                "Neha",
+                "Aman",
+                "Suraj Singh",
+                "Ether Swain",
+                "Riya Sharma",
+                "Pratyush",
+                "Pringle",
+                "Anchal",
+                "Arpita",
+                "John",
+                "Yash",
+                "Suraj",
+                "Archeeta",
+                "Tushar",
+                "Srestha"
+        ],
+        "topic" : "JavaScript"
+}
+{
+        "_id" : ObjectId("613e2bb91b632d2747092998"),
+        "mid" : 6,
+        "mentor_name" : "Swarup Mishra",
+        "users" : [
+                "Aishwarya",
+                "Ayush",
+                "Varun",
+                "Prateek",
+                "Debjoti",
+                "Asish",
+                "Mansi",
+                "Riya",
+                "Tina",
+                "Hardik"
+        ],
+        "topic" : "Web Development"
+}
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
